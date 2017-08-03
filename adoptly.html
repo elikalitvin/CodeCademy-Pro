@@ -1,0 +1,178 @@
+<!doctype html>
+<html>
+  <head>
+    <link rel="stylesheet" href="https://s3.amazonaws.com/codecademy-content/projects/bootstrap.min.css">
+    <link href='https://fonts.googleapis.com/css?family=Montserrat:400,700' rel='stylesheet' type='text/css'>
+    <link href='https://fonts.googleapis.com/css?family=Open+Sans:400' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" href="style.css">
+    <style>
+      html, body {
+        margin: 0;
+        padding: 0;
+        font-family: 'Montserrat', sans-serif;
+      }
+
+      .container {
+        max-width: 940px; 
+        margin: 0 auto; 
+        padding: 0;
+      }
+
+      .header {
+        height: 80px;
+        background-color: #30627E;
+      }
+
+      .header .container {
+        position: relative;
+        text-align: center;
+        padding-top: 20px;
+        height: 80px;
+        margin: 0 auto;
+        padding-top: 20px;
+      }
+
+      .header ul {
+        list-style: none;
+      }
+
+      .header ul li {
+        display: inline;
+        margin-right: 40px;
+        font-size: 20px;
+        color: white;
+        padding: 20px 30px;
+        margin: 0;
+      }
+
+      .header .main {
+        color:  white;
+        font-size: 28px;
+        background-color:  #E52364;
+        height: 80px;
+        margin: 0;
+
+      }
+
+      .container {
+        max-width: 940px;
+        margin: 0 auto;
+        padding: 0;
+      }
+
+      .jumbotron {
+        background: url(https://s3.amazonaws.com/codecademy-content/projects/adoptly/bg.jpg) no-repeat center center;
+        background-size: cover;
+        height: 500px;
+        text-align: center;
+      }
+
+      .jumbotron h1 {
+        color: #E52364;
+        font-weight: bold;
+        font-size: 60px;
+      }
+
+      /* Supporting */
+      .supporting {
+        height: 380px;
+        text-align: center;
+        padding: 40px 30px 80px;
+      }
+
+      .supporting p {
+        margin-bottom: 40px;
+      }
+
+      .btn {
+        border: 1px solid #30627E;
+        padding:  10px 80px;
+        border-radius: 0;
+        margin: 20px auto 60px;
+      }
+
+      /* Footer */
+      .footer {
+        height: 90px;
+        color: white;
+        background-color: #E52364;
+        padding: 20px;
+      }
+
+      .footer .col-md-2 {
+        margin-top: 20px;
+      }
+
+      .footer .col-md-10 {
+        margin-top: 10px;
+      }
+
+      .footer ul li a{
+        color: white;
+      }
+
+      @media (max-width: 500px) {
+        ul li {
+          width: 100%;
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <div class="header">
+      <div class="container">
+        <ul>
+          <li class="main">Adoptly</li>
+          <li>About</li>
+          <li>Animals</li>
+          <li>Blog</li>
+          <li>Events</li>
+        </ul>  
+      </div>
+    </div>
+
+    <div class="jumbotron">
+      <div class="container">
+        <h1>Meet your new best friend.</h1>
+      </div>
+    </div>
+
+    <div class="supporting">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-4">
+            <h2>Search</h2>
+            <p>Find a pet based on location, type, breed, age, and gender. We look through hundreds of shelters, agencies, and rescue sites.</p>
+            <a class="btn" href="#">GO</a>
+          </div>
+          <div class="col-md-4">
+            <h2>Learn</h2>
+            <p>Read articles on feeding, training, grooming, and more. Our resources ensure that you are fully prepared as a new pet owner.</p>
+            <a class="btn" href="#">GO</a>
+          </div>
+          <div class="col-md-4">
+            <h2>Help</h2>
+            <p>Get involved to help pets in need. You can make a difference through volunteering, social media, and donations.</p><br />
+            <a class="btn" href="#">GO</a>
+          </div>  
+        </div>  
+      </div>
+    </div>
+    
+    <div class="footer">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-2">
+          	<p>&copy; Adoptly</p>
+          </div>  
+          <div class="col-md-10">
+            <ul class="nav nav-pills pull-right" >
+              <li><a href="#">FAQ</a></li>
+              <li><a href="#">Contact</a></li>
+            </ul>
+          </div>  
+        </div>  
+      </div>
+    </div>
+  </body>
+</html>
