@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html>
+  <head>
+  <link href='https://fonts.googleapis.com/css?family=Open+Sans:300' rel='stylesheet' type='text/css'>
+  <link rel='stylesheet' href='style.css'/>
+  </head>
+  <style>
+    html, body {
+        margin: 0;
+        padding: 0;
+        font-family: 'Open Sans', sans-serif;
+      }
+
+      .container {
+        max-width: 940px;
+        margin: 0 auto;
+      }
+
+      .main {
+        position: relative;
+      }
+
+      .main video {
+        width: 100%;
+      }
+
+      .main .content {
+        position: absolute;
+        top: 200px;
+        width: 100%;
+        left: 0;
+        right: 0;
+        margin: 0 auto;
+        color: white;
+        text-align: center;
+      }
+
+      .main h1 {
+        font-size: 50px;
+        text-shadow: 0 2px 3px rgba(0,0,0,.4);
+      }
+
+      .btn {
+        color: white;
+        text-decoration: none;
+        background-color:  #4386fc;
+        font-size: 16px;
+        padding: 16px 26px;
+      }
+
+      .supporting {
+        margin-top: 100px;
+        margin-bottom: 130px;
+      }
+
+      .supporting .container {
+        text-align:  center;
+      }
+
+      .supporting h1 {
+        font-size: 48px;
+        font-weight: 300;
+      }
+
+      .supporting p {
+        color: #333;
+        font-size: 21px;
+        font-weight: 300;
+        padding: 0 30px;
+      }
+
+      .feature {
+        height: 500px;
+        background: url(https://s3.amazonaws.com/codecademy-content/projects/excursion/camp.png) no-repeat center center;
+        background-size: cover;
+      }
+
+      .footer {
+        padding: 30px;
+        background-color: #eeeeee;
+        color: #333;
+      }
+
+      @media (max-width: 960px) {
+        .main {
+          height: 540px; 
+        }
+        .main video {
+          height: 540px; 
+          width: 960px;
+        }
+        .main h1 {
+          font-size: 32px;
+        }
+      }
+  </style>
+  <body>
+  
+    <!-- Main section -->
+    <div class="main">      
+			<video autoplay muted loop> 
+        <source src="https://s3.amazonaws.com/codecademy-content/projects/excursion/bg.mp4" type="video/mp4">
+     </video>   
+      <div class="content container">
+        <h1>Discover hidden places in the world around you</h1>
+        <a class="btn" href="#">Download Excursion</a>
+      </div>            
+    </div>
+
+
+    <!-- First supporting section -->
+    <div class="supporting">
+      <div class="container">
+        <h1>Your personal travel guide</h1>
+        <p>Excursion remembers places you like, and recommends new points of interest around you.</p>
+      </div>
+    </div>
+
+
+    <!-- Feature section -->
+    <div class="feature">
+    </div>
+			
+    
+    <!-- Second supporting section -->
+    <div class="supporting">
+      <div class="container">
+        <img src="https://s3.amazonaws.com/codecademy-content/projects/excursion/binoculars.png">
+        <h1>Available for iPhone and Android</h1>
+        <a class="btn" href="#">Download Excursion</a>
+      </div>
+    </div>
+
+    
+    <!-- Footer -->
+    <div class="footer">
+      <div class="container">
+        <p>&copy; Excursion</p>
+      </div>
+    </div>
+    
+  </body>
+</html>
